@@ -33,6 +33,7 @@
 
 # Ignore teacher-only content
 **/TeacherDemoFiles/
+/Assets/TeacherDemoFiles.meta
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
