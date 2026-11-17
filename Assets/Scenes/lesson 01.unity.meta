@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/lesson 01.unity.meta
 guid: e62246c19d4d9c24da3b7c757de308b1
+========
+guid: 84cc0d9942593984b825bc3fd5e94fa6
+>>>>>>>> main:Assets/Scenes/Lesson 01.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
