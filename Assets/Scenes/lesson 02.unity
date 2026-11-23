@@ -151,11 +151,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 438108c019611934aa3d1e4d5b6e8b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
-  playerRoot: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
-  playerBoxCollider: {fileID: 0}
+  playerRoot: {fileID: 1949110915}
+  playerBoxCollider: {fileID: 1949110916}
   pushDistance: 2
   pushSpeed: 4
-  pulseColor: {r: 1, g: 0, b: 0, a: 1}
+  pulseColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!65 &220332510
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -171,7 +171,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -513,7 +513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7189602
+      value: 0.72
       objectReference: {fileID: 0}
     - target: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -551,10 +551,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerPrefab3D
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3624911602376261545, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1108517665129069685, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1949110916}
   m_SourcePrefab: {fileID: 100100000, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
 --- !u!1 &1205023704
 GameObject:
@@ -700,8 +704,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 438108c019611934aa3d1e4d5b6e8b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
-  playerRoot: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
-  playerBoxCollider: {fileID: 0}
+  playerRoot: {fileID: 1949110915}
+  playerBoxCollider: {fileID: 1949110916}
   pushDistance: 2
   pushSpeed: 4
   pulseColor: {r: 1, g: 0, b: 0, a: 1}
@@ -720,7 +724,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -798,6 +802,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1949110909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1108517665129069685, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
+  m_PrefabInstance: {fileID: 579003004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1949110915 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
+  m_PrefabInstance: {fileID: 579003004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1949110916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949110909}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
