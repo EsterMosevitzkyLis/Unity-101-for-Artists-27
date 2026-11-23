@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 438108c019611934aa3d1e4d5b6e8b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
-  playerRoot: {fileID: 0}
+  playerRoot: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
   playerBoxCollider: {fileID: 0}
   pushDistance: 2
   pushSpeed: 4
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 438108c019611934aa3d1e4d5b6e8b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
-  playerRoot: {fileID: 0}
+  playerRoot: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
   playerBoxCollider: {fileID: 0}
   pushDistance: 2
   pushSpeed: 4
