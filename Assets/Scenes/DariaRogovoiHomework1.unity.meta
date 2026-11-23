@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/DariaRogovoiHomework1.unity.meta
 guid: 2c4287e73c7c5014f91ef1e4d868957b
+========
+guid: f032e859646cb9a4a9c339b373c103d9
+folderAsset: yes
+>>>>>>>> main:Assets/Prefabs.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
