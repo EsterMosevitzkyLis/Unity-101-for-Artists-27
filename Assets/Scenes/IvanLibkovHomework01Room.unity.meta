@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/IvanLibkovHomework01Room.unity.meta
 guid: 86e21d6b36039df4caaf6440951de744
+========
+guid: 84cc0d9942593984b825bc3fd5e94fa6
+>>>>>>>> main:Assets/Scenes/Lesson 01.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
